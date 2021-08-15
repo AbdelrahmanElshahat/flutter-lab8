@@ -37,7 +37,7 @@ class _UserDetailsState extends State<UserDetails> {
             ),
             InkWell(
               onTap: () {
-                LaunchURL("telto:${widget.user.phone}");
+                LaunchURL("tel:${widget.user.phone}");
               },
               child: Text("phone : ${widget.user.phone}")
             ),
