@@ -28,7 +28,7 @@ class _UserDetailsState extends State<UserDetails> {
             ),
             InkWell(
               onTap: () {
-                LaunchURL("Mail to:${widget.user.email}");
+                LaunchURL("mailto:${widget.user.email}");
               },
               child: Text("E-mail : ${widget.user.email}")
             ),
@@ -37,7 +37,7 @@ class _UserDetailsState extends State<UserDetails> {
             ),
             InkWell(
               onTap: () {
-                LaunchURL("tel to:${widget.user.phone}");
+                LaunchURL("telto:${widget.user.phone}");
               },
               child: Text("phone : ${widget.user.phone}")
             ),
