@@ -1,7 +1,6 @@
 # lab7
 
-A new Flutter project.
-
+http and links task
 ## Getting Started
 
 This project is a starting point for a Flutter application.
